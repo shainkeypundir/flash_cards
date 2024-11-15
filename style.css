@@ -1,0 +1,102 @@
+.questions{
+    background: #cdc9c933;
+    padding-top: -7px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* width: 300px; */
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(191, 183, 183);
+}
+
+.progress-bar{
+    background: #d0c3c3;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.progress-bar{
+    height: 30px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #cfcbcb;
+    height: 25px;
+    margin-bottom: 6px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid rgb(191, 183, 183);
+}
+
+.previous-btn{
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #cfcbcb;
+
+}
+
+
+.next-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+  
+    background: #cfcbcb;
+    border-radius: 4px;
+}
+
+.show-btn{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* border: 2px solid rgb(191, 183, 183); */
+    background: #cfcbcb;
+
+font-weight: 500px;
+    font-size: 18px;
+}
+
+.hide-btn{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #cfcbcb;
+    cursor: pointer;
+    /* border: 2px solid rgb(191, 183, 183); */
+font-weight: 500px;
+font-size: 18px;
+}
